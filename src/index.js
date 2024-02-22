@@ -1,12 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
+import './index.css'; // Ensure this imports Tailwind CSS correctly
 import App from './App';
-import { HashRouter as Router } from 'react-router-dom'; // Import HashRouter and alias it as Router
+import { BrowserRouter as Router } from 'react-router-dom';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Router> {/* Use Router here, which is actually HashRouter */}
+    <Router>
       <App />
     </Router>
   </React.StrictMode>,
