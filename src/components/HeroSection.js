@@ -29,7 +29,7 @@ function HeroSection() {
                 <div className="text-center px-4 md:px-0">
                     <h1 className="text-2xl md:text-3xl xl:text-6xl font-game-of-thrones leading-tight text-yellow-400 shadow-md">Gramps of Tennessee</h1>
                     <div className="typewriter">
-                        <p className="mt-2 text-xl md:text-xl xl:text-3xl font-light text-gray-300 shadow-lg">{subtitleText}</p>
+                      <p className="mt-2 text-lg sm:text-xl md:text-2xl xl:text-3xl font-light text-gray-300 shadow-lg">{subtitleText}</p>
                     </div>
                     <Link to="/about" className="mt-8 md:mt-10 inline-block bg-yellow-500 text-black font-medium py-3 px-6 text-lg rounded-lg transition duration-300 hover:bg-yellow-600 hover:text-white shadow-md">Learn More</Link>
                 </div>
