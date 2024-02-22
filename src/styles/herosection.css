@@ -7,28 +7,17 @@
   font-family: 'GameOfThrones', sans-serif;
 }
 
-/* herosection.css */
+/* Typewriter Effect Without Cursor */
+.typewriter p {
+  overflow: hidden;
+  white-space: nowrap;
+  margin: 0 auto;
+  letter-spacing: .15em;
+  animation: typewriter 6s steps(40, end) forwards;
+  /* Removed the cursor effect */
+}
 
-/* Typewriter Effect */
 @keyframes typewriter {
-    from { width: 0; }
-    to { width: 100%; }
-  }
-  
-  @keyframes blinkCaret {
-    from, to { border-color: transparent; }
-    50% { border-color: yellow; }
-  }
-  
-  .typewriter h1 {
-    overflow: hidden; /* Ensures the content is not revealed until the animation */
-    white-space: nowrap; /* Keeps the content on a single line */
-    margin: 0 auto; /* Centers the heading */
-    letter-spacing: .15em; /* Adjust as needed */
-    animation: 
-      typewriter .5s steps(40, end) forwards,
-      blinkCaret .75s step-end infinite;
-    display: inline-block; /* Ensures the width animation applies correctly */
-  }
-  
- 
+  from { width: 0; }
+  to { width: 100%; }
+}
