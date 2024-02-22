@@ -1,14 +1,13 @@
 {
   "files": {
-    "main.css": "/GOTv2/static/css/main.3d3efb2c.css",
-    "main.js": "/GOTv2/static/js/main.91a811c3.js",
+    "main.css": "/GOTv2/static/css/main.6ba1229a.css",
+    "main.js": "/GOTv2/static/js/main.adf8ee11.js",
     "static/media/hero-background.jpg": "/GOTv2/static/media/hero-background.472cedeaf5225ecf1d27.jpg",
     "static/media/about.jpg": "/GOTv2/static/media/about.852c07b5857600f632a1.jpg",
     "static/media/nurse.jpg": "/GOTv2/static/media/nurse.d019d6462f1b2cae8b20.jpg",
     "static/media/home-care.jpg": "/GOTv2/static/media/home-care.6ad2e749e8c3692f36ed.jpg",
     "static/media/hospice.jpg": "/GOTv2/static/media/hospice.4f3adf7e6fe163c59769.jpg",
     "static/media/assited-living.jpg": "/GOTv2/static/media/assited-living.536a36c4883e532077cb.jpg",
-    "static/media/transportation.jpg": "/GOTv2/static/media/transportation.bf46c21d927b7a539f70.jpg",
     "static/media/independent-living.jpg": "/GOTv2/static/media/independent-living.624b33250a44aa1eb8c7.jpg",
     "static/media/driving.jpg": "/GOTv2/static/media/driving.a2abb9f24b58fa20eb5f.jpg",
     "static/media/veterans.jpg": "/GOTv2/static/media/veterans.c854decfb687d0fffed5.jpg",
@@ -22,11 +21,11 @@
     "static/media/money.jpg": "/GOTv2/static/media/money.e4d7870db7b9a4d7a79f.jpg",
     "static/media/GameofThrones.ttf": "/GOTv2/static/media/GameofThrones.71fa190a8a1a34123fa1.ttf",
     "index.html": "/GOTv2/index.html",
-    "main.3d3efb2c.css.map": "/GOTv2/static/css/main.3d3efb2c.css.map",
-    "main.91a811c3.js.map": "/GOTv2/static/js/main.91a811c3.js.map"
+    "main.6ba1229a.css.map": "/GOTv2/static/css/main.6ba1229a.css.map",
+    "main.adf8ee11.js.map": "/GOTv2/static/js/main.adf8ee11.js.map"
   },
   "entrypoints": [
-    "static/css/main.3d3efb2c.css",
-    "static/js/main.91a811c3.js"
+    "static/css/main.6ba1229a.css",
+    "static/js/main.adf8ee11.js"
   ]
 }
