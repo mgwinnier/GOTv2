@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/GOTv2/static/css/main.3d3efb2c.css",
-    "main.js": "/GOTv2/static/js/main.e059651d.js",
+    "main.js": "/GOTv2/static/js/main.80e18747.js",
     "static/media/hero-background.jpg": "/GOTv2/static/media/hero-background.472cedeaf5225ecf1d27.jpg",
     "static/media/about.jpg": "/GOTv2/static/media/about.852c07b5857600f632a1.jpg",
     "static/media/nurse.jpg": "/GOTv2/static/media/nurse.d019d6462f1b2cae8b20.jpg",
@@ -23,10 +23,10 @@
     "static/media/GameofThrones.ttf": "/GOTv2/static/media/GameofThrones.71fa190a8a1a34123fa1.ttf",
     "index.html": "/GOTv2/index.html",
     "main.3d3efb2c.css.map": "/GOTv2/static/css/main.3d3efb2c.css.map",
-    "main.e059651d.js.map": "/GOTv2/static/js/main.e059651d.js.map"
+    "main.80e18747.js.map": "/GOTv2/static/js/main.80e18747.js.map"
   },
   "entrypoints": [
     "static/css/main.3d3efb2c.css",
-    "static/js/main.e059651d.js"
+    "static/js/main.80e18747.js"
   ]
 }
