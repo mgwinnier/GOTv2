@@ -27,7 +27,7 @@ function HeroSection() {
         <div className="relative w-full bg-cover bg-center bg-no-repeat text-white" style={{ backgroundImage: `linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(${heroBackground})`, height: '60vh' }}>
             <div className="container mx-auto flex flex-col items-center justify-center h-full">
                 <div className="text-center px-4 md:px-0">
-                    <h1 className="text-2xl md:text-3xl xl:text-6xl font-game-of-thrones leading-tight text-yellow-400 shadow-md">Gramps of Tennessee</h1>
+                    <h1 className="text-2xl md:text-3xl xl:text-6xl font-game-of-thrones leading-tight text-yellow-400 shadow-md">GRAMPS of Tennessee</h1>
                     <div className="typewriter">
                       <p className="mt-2 text-lg sm:text-xl md:text-2xl xl:text-3xl font-light text-gray-300 shadow-lg">{subtitleText}</p>
                     </div>

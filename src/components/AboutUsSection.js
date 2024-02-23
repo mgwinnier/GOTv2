@@ -9,11 +9,11 @@ function AboutUsSection() {
           <div className="w-full px-4 mb-4 text-center md:text-left md:w-7/12 md:order-1">
             <h2 className="text-3xl font-semibold">Our Mission</h2>
             <p className="mt-4 text-lg leading-relaxed text-gray-700">
-              At Gramps of Tennessee, our core commitment is to enhance the quality of life for senior citizens through comprehensive support and services. We believe in fostering an environment that promotes independence, health, and happiness.
+              At GRAMPS of Tennessee, our core commitment is to enhance the quality of life for senior citizens through comprehensive support and services. We believe in fostering an environment that promotes independence, health, and happiness.
             </p>
             <h2 className="text-3xl font-semibold mt-8">Our Team</h2>
             <p className="mt-4 text-lg leading-relaxed text-gray-700">
-              Behind every service at Gramps of TN is a team of dedicated professionals. From healthcare specialists and caregivers to support staff and volunteers, each member brings expertise and empathy to their role. United by a shared vision, our team works tirelessly to create meaningful experiences for our seniors.
+              Behind every service at GRAMPS of TN is a team of dedicated professionals. From healthcare specialists and caregivers to support staff and volunteers, each member brings expertise and empathy to their role. United by a shared vision, our team works tirelessly to create meaningful experiences for our seniors.
             </p>
           </div>
           <div className="w-full px-4 text-center md:w-5/12 md:order-2">
