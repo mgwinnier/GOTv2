@@ -13,7 +13,7 @@ function Footer() {
                     <Link to="/contact" className="hover:text-gold-500 transition-colors duration-300">Contact Us</Link>
                 </div>
                 <div className="text-center text-gray-400">
-                    &copy; {new Date().getFullYear()} Gramps of Tennessee. All rights reserved.
+                    &copy; {new Date().getFullYear()} GRAMPS of Tennessee. All rights reserved.
                 </div>
             </div>
         </footer>
