@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/GOTv2/static/css/main.d7e767d1.css",
-    "main.js": "/GOTv2/static/js/main.6c845a8f.js",
+    "main.css": "/GOTv2/static/css/main.15f673ee.css",
+    "main.js": "/GOTv2/static/js/main.7db3cde2.js",
     "static/media/hero-background.jpg": "/GOTv2/static/media/hero-background.472cedeaf5225ecf1d27.jpg",
     "static/media/about.jpg": "/GOTv2/static/media/about.852c07b5857600f632a1.jpg",
     "static/media/nurse.jpg": "/GOTv2/static/media/nurse.d019d6462f1b2cae8b20.jpg",
@@ -24,11 +24,11 @@
     "static/media/GameofThrones.ttf": "/GOTv2/static/media/GameofThrones.71fa190a8a1a34123fa1.ttf",
     "static/media/veterans.jpg": "/GOTv2/static/media/veterans.b9122404b018c4ee0bc1.jpg",
     "index.html": "/GOTv2/index.html",
-    "main.d7e767d1.css.map": "/GOTv2/static/css/main.d7e767d1.css.map",
-    "main.6c845a8f.js.map": "/GOTv2/static/js/main.6c845a8f.js.map"
+    "main.15f673ee.css.map": "/GOTv2/static/css/main.15f673ee.css.map",
+    "main.7db3cde2.js.map": "/GOTv2/static/js/main.7db3cde2.js.map"
   },
   "entrypoints": [
-    "static/css/main.d7e767d1.css",
-    "static/js/main.6c845a8f.js"
+    "static/css/main.15f673ee.css",
+    "static/js/main.7db3cde2.js"
   ]
 }
