@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'; // Import Link from react-router-dom fo
 
 function ContactSection() {
   return (
-    <section id="contact-us" className="py-12 pt-12 pb-4 bg-gray-300"> {/* Adjusted bottom padding */}
+    <section id="contact-us" className="py-12 pt-12 pb-4 bg-white"> {/* Adjusted bottom padding */}
       <div className="container mx-auto px-4">
         <div className="text-center mb-6"> {/* Reduced margin below the text */}
           <h2 className="text-3xl font-semibold">Contact Us For More Information</h2> {/* Updated heading */}
