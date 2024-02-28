@@ -7,7 +7,7 @@ import AboutUsSection from './components/AboutUsSection';
 import VeteransSection from './components/VeteransSection';
 import ContactSection from './components/ContactSection';
 import Footer from './components/Footer';
-import './index.css'; // Assuming Tailwind CSS is imported here
+import Resources from './resources'; // Make sure this path is correct
 
 function App() {
   return (
@@ -15,7 +15,6 @@ function App() {
       <Navbar />
       <main>
         <Routes>
-          {/* Using "element" prop to render components. Note: React Router v6 uses "element", not "component". */}
           <Route path="/" element={
             <>
               <HeroSection />
@@ -25,7 +24,7 @@ function App() {
               <ContactSection />
             </>
           } />
-          {/* If you have additional pages, they would be added as separate Route entries here */}
+          <Route path="/resources" element={<Resources />} />
         </Routes>
       </main>
       <Footer />

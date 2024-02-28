@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 
 // Example image imports, replace with your actual paths
 import homeHealthImg from '../assets/homehealth.jpg';
@@ -115,9 +116,9 @@ function ServicesSection() {
 
       {/* Centered Button */}
       <div className="text-center">
-        <a href="/Resources" className="mt-4 inline-block px-5 py-2 text-lg text-white font-bold bg-black rounded-lg hover:bg-yellow-500 transition-colors">
+        <Link to="/resources" className="mt-4 inline-block px-5 py-2 text-lg text-white font-bold bg-black rounded-lg hover:bg-yellow-500 transition-colors">
           Learn More About Our Resources
-        </a>
+        </Link>
       </div>
     </section>
   );

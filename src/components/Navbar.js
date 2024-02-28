@@ -1,3 +1,5 @@
+// Navbar.js
+
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import logo from '../assets/logo.png'; // Make sure the path to your logo image is correct;
@@ -19,20 +21,7 @@ function Navbar() {
                     aria-expanded={isOpen ? "true" : "false"}
                     onClick={() => setIsOpen(!isOpen)}
                 >
-                    <span className="sr-only">Open main menu</span>
-                    <svg
-                        className="w-6 h-6"
-                        aria-hidden="true"
-                        fill="currentColor"
-                        viewBox="0 0 20 20"
-                        xmlns="http://www.w3.org/2000/svg"
-                    >
-                        <path
-                            fillRule="evenodd"
-                            d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
-                            clipRule="evenodd"
-                        ></path>
-                    </svg>
+                    {/* Icon for the button */}
                 </button>
                 <div className={`${isOpen ? '' : 'hidden'} md:flex md:items-center w-full md:w-auto`} id="navbar-default">
                     <ul className="flex flex-col md:flex-row md:space-x-8 md:text-sm md:font-medium">
@@ -40,7 +29,7 @@ function Navbar() {
                             <Link to="/" className="text-white">Home</Link>
                         </li>
                         <li>
-                            <Link to="/services" className="text-white">Resources</Link>
+                            <Link to="./resources" className="text-white">Resources</Link>
                         </li>
                         <li>
                             <Link to="/about" className="text-white">Who We Are</Link>
