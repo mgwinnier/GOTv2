@@ -26,10 +26,13 @@ function HeroSection() {
     return (
         <div className="relative w-full bg-cover bg-center bg-no-repeat text-white" style={{ backgroundImage: `linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(${heroBackground})`, height: '60vh' }}>
             <div className="container mx-auto flex flex-col items-center justify-center h-full">
-                <div className="text-center px-4 md:px-0">
-                    <h1 className="text-2xl md:text-3xl xl:text-6xl font-game-of-thrones leading-tight text-yellow-400 shadow-md">GRAMPS of Tennessee</h1>
+            <div className="text-center px-4 md:px-0">
+                <h1 className="text-2xl md:text-3xl xl:text-6xl font-game-of-thrones leading-tight text-yellow-400 shadow-md" style={{ maxWidth: '100%', overflowWrap: 'break-word', textAlign: 'center' }}>GRAMPS of Tennessee</h1>
+                    <p className="text-lg sm:text-xl md:text-2xl xl:text-3xl text-yellow-500 mt-2 px-2" style={{ maxWidth: '100%', overflowWrap: 'break-word', textAlign: 'center' }}>
+                        Geriatric Resources, Advising, Moving, & Placement Services of Tennessee
+                    </p>
                     <div className="typewriter">
-                      <p className="mt-2 text-lg sm:text-xl md:text-2xl xl:text-3xl font-light text-gray-300 shadow-lg">{subtitleText}</p>
+                      <p className="mt-2 text-lg sm:text-xl md:text-2xl xl:text-3xl font-light text-gray-300 shadow-lg" style={{ maxWidth: '100%', overflowWrap: 'break-word', textAlign: 'center' }}>{subtitleText}</p>
                     </div>
                     <Link to="/about" className="mt-8 md:mt-10 inline-block bg-yellow-500 text-black font-medium py-3 px-6 text-lg rounded-lg transition duration-300 hover:bg-yellow-600 hover:text-white shadow-md">Learn More</Link>
                 </div>

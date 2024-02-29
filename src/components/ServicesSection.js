@@ -22,7 +22,7 @@ import HomeImg from '../assets/homeact.jpg';
 const keyServices = [
   { name: "Discover Your Care Level", img: DiscImg },
   { name: "Placement Advising", img: PlaceImg },
-  { name: "Concierge Transportation Services", img: DrivingImg  },
+  { name: "Concierge Transportation Services", img: DrivingImg },
 ];
 
 const advisingServices = [
@@ -57,9 +57,9 @@ function ServicesSection() {
           <h2 className="text-3xl font-bold uppercase text-yellow-500 mb-4">Key Services</h2>
           <div className="flex flex-wrap justify-center gap-6 mb-12">
             {keyServices.map((service, index) => (
-              <div key={index} className="w-full sm:w-1/3 md:w-1/4 lg:w-1/5 mb-4 sm:mb-0">
-                <div className="w-full h-64 rounded-full overflow-hidden shadow-md hover:shadow-lg hover:shadow-yellow-500 transition-shadow duration-300">
-                  <img src={service.img} alt={service.name} className="w-full h-full object-cover transition-transform duration-300 hover:scale-110"/>
+              <div key={index} className="w-1/3 sm:w-1/4 md:w-1/5 px-4 mb-6">
+                <div className="aspect-w-1 aspect-h-1 w-full rounded-full overflow-hidden shadow-md hover:shadow-lg hover:shadow-yellow-500 transition-shadow duration-300">
+                  <img src={service.img} alt={service.name} className="object-cover"/>
                 </div>
                 <p className="font-bold text-lg mt-3">{service.name}</p>
               </div>
@@ -67,56 +67,56 @@ function ServicesSection() {
           </div>
         </div>
 
-       {/* Advising Services Section */}
-       <div>
+        {/* Advising Services Section */}
+        <div>
           <h2 className="text-3xl font-bold uppercase text-gray-800 mb-4">Advising Services</h2>
           <button 
-            className="mt-4 bg-yellow-500 text-white font-bold py-2 px-4 rounded hover:bg-yellow-600 transition duration-300 mb-8"
+            className="bg-yellow-500 text-white font-bold py-2 px-4 rounded hover:bg-yellow-600 transition duration-300 mb-8"
             onClick={() => setShowAdvising(!showAdvising)}
           >
             {showAdvising ? 'Collapse Services' : 'Expand Services'}
           </button>
-        </div>
-        {showAdvising && (
-          <div className="flex flex-wrap justify-center gap-6 mb-12">
-            {advisingServices.map((service, index) => (
-              <div key={index} className="w-full sm:w-1/3 md:w-1/4 lg:w-1/5 mb-4 sm:mb-0">
-                <div className="w-full h-64 rounded-full overflow-hidden shadow-md hover:shadow-lg hover:shadow-yellow-500 transition-shadow duration-300">
-                  <img src={service.img} alt={service.name} className="w-full h-full object-cover transition-transform duration-300 hover:scale-110"/>
+          {showAdvising && (
+            <div className="flex flex-wrap justify-center gap-6 mb-12">
+              {advisingServices.map((service, index) => (
+                <div key={index} className="w-1/3 sm:w-1/4 md:w-1/5 px-4 mb-6">
+                  <div className="aspect-w-1 aspect-h-1 w-full rounded-full overflow-hidden shadow-md hover:shadow-lg hover:shadow-yellow-500 transition-shadow duration-300">
+                    <img src={service.img} alt={service.name} className="object-cover"/>
+                  </div>
+                  <p className="font-bold text-lg mt-3">{service.name}</p>
                 </div>
-                <p className="font-bold text-lg mt-3">{service.name}</p>
-              </div>
-            ))}
-          </div>
-        )}
+              ))}
+            </div>
+          )}
+        </div>
 
         {/* Other Services Section */}
         <div>
           <h3 className="text-3xl font-bold uppercase text-gray-800 mb-4">Other Services</h3>
           <button 
-            className="mt-4 bg-yellow-500 text-white font-bold py-2 px-4 rounded hover:bg-yellow-600 transition duration-300 mb-8"
+            className="bg-yellow-500 text-white font-bold py-2 px-4 rounded hover:bg-yellow-600 transition duration-300 mb-8"
             onClick={() => setShowOtherServices(!showOtherServices)}
           >
             {showOtherServices ? 'Collapse Services' : 'Expand Services'}
           </button>
-        </div>
-        {showOtherServices && (
-          <div className="flex flex-wrap justify-center gap-6">
-            {otherServices.map((service, index) => (
-              <div key={index} className="w-full sm:w-1/3 md:w-1/4 lg:w-1/5 mb-4 sm:mb-0">
-                <div className="w-full h-64 rounded-full overflow-hidden shadow-md hover:shadow-lg hover:shadow-yellow-500 transition-shadow duration-300">
-                  <img src={service.img} alt={service.name} className="w-full h-full object-cover transition-transform duration-300 hover:scale-110"/>
+          {showOtherServices && (
+            <div className="flex flex-wrap justify-center gap-6">
+              {otherServices.map((service, index) => (
+                <div key={index} className="w-1/3 sm:w-1/4 md:w-1/5 px-4 mb-6">
+                  <div className="aspect-w-1 aspect-h-1 w-full rounded-full overflow-hidden shadow-md hover:shadow-lg hover:shadow-yellow-500 transition-shadow duration-300">
+                    <img src={service.img} alt={service.name} className="object-cover"/>
+                  </div>
+                  <p className="font-bold text-lg mt-3">{service.name}</p>
                 </div>
-                <p className="font-bold text-lg mt-3">{service.name}</p>
-              </div>
-            ))}
-          </div>
-        )}
+              ))}
+            </div>
+          )}
+        </div>
       </div>
 
       {/* Centered Button */}
       <div className="text-center">
-        <Link to="/resources" className="mt-4 inline-block px-5 py-2 text-lg text-white font-bold bg-black rounded-lg hover:bg-yellow-500 transition-colors">
+        <Link to="/resources" className="inline-block px-8 py-4 text-white font-bold bg-black rounded hover:bg-yellow-500 transition-colors">
           Learn More About Our Resources
         </Link>
       </div>
