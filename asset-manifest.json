@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/GOTv2/static/css/main.15f673ee.css",
-    "main.js": "/GOTv2/static/js/main.4fb6af06.js",
+    "main.css": "/GOTv2/static/css/main.d4b5857d.css",
+    "main.js": "/GOTv2/static/js/main.0ba2805f.js",
     "static/media/hero-background.jpg": "/GOTv2/static/media/hero-background.472cedeaf5225ecf1d27.jpg",
     "static/media/about.jpg": "/GOTv2/static/media/about.852c07b5857600f632a1.jpg",
     "static/media/nurse.jpg": "/GOTv2/static/media/nurse.d019d6462f1b2cae8b20.jpg",
@@ -32,11 +32,11 @@
     "static/media/veterans.jpg": "/GOTv2/static/media/veterans.b9122404b018c4ee0bc1.jpg",
     "static/media/law.jpg": "/GOTv2/static/media/law.027f952caf4dacfa23c3.jpg",
     "index.html": "/GOTv2/index.html",
-    "main.15f673ee.css.map": "/GOTv2/static/css/main.15f673ee.css.map",
-    "main.4fb6af06.js.map": "/GOTv2/static/js/main.4fb6af06.js.map"
+    "main.d4b5857d.css.map": "/GOTv2/static/css/main.d4b5857d.css.map",
+    "main.0ba2805f.js.map": "/GOTv2/static/js/main.0ba2805f.js.map"
   },
   "entrypoints": [
-    "static/css/main.15f673ee.css",
-    "static/js/main.4fb6af06.js"
+    "static/css/main.d4b5857d.css",
+    "static/js/main.0ba2805f.js"
   ]
 }
