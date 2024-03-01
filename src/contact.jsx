@@ -88,7 +88,7 @@ const ContactForm = () => {
             onChange={handleChange}
           />
           <ReCAPTCHA
-            sitekey='6LcRsoYpAAAAAF6TvLkS6VI4di0Mh4KgemVKdeS6' // Replace with your actual site key
+            sitekey="6LcRsoYpAAAAAF6TvLkS6VI4di0Mh4KgemVKdeS6" // Replace with your actual site key
             onChange={token => setRecaptchaToken(token)}
             onExpired={() => setRecaptchaToken('')}
           />
