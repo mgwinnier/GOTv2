@@ -16,10 +16,10 @@ import MSImage from './assets/resources/MS.jpg';
 import caringImage from './assets/resources/caring.jpg'; 
 
 const resourcesData = [
-  { serviceType: 'End of Life Doula', keyword: 'End of Life Doula', company: 'Susie’s Senior Services', contact: 'susiemae1221@yahoo.com', photoUrl: susieImage },
-  { serviceType: 'Dementia Practitioner & Resources', keyword: 'Memory Care', company: 'Susie’s Senior Services', contact: 'susiemae1221@yahoo.com', photoUrl: susieImage },
+  { serviceType: 'End of Life Doula', keyword: 'End of Life Doula', company: 'Susie’s Senior Services', contact: 'susiesseniorservicesoftn@gmail.com', photoUrl: susieImage },
+  { serviceType: 'Dementia Practitioner & Resources', keyword: 'Memory Care', company: 'Susie’s Senior Services', contact: 'susiesseniorservicesoftn@gmail.com', photoUrl: susieImage },
   { serviceType: 'Dementia Practitioner & Resources', keyword: 'Memory Care', company: 'Alzheimer\'s Tennessee, Inc', contact: 'https://www.alztennessee.org/', photoUrl: TNalzImage },
-  { serviceType: 'Wellness/Fitness/Nutrition Advising', keyword: 'Wellness Advising', company: 'Susie’s Senior Services', contact: 'susiemae1221@yahoo.com' , photoUrl: susieImage},
+  { serviceType: 'Wellness/Fitness/Nutrition Advising', keyword: 'Wellness Advising', company: 'Susie’s Senior Services', contact: 'susiesseniorservicesoftn@gmail.com' , photoUrl: susieImage},
   { serviceType: 'Home Care/ Medical Care Management', keyword: 'Home Care', company: 'Arosa Middle TN | Middle Tennessee Care Management & Home Care', contact: 'https://arosacare.com/locations/middle-tennessee/', photoUrl: ArosaImage },
   { serviceType: 'In-Home Senior Activities', keyword: 'Home Activities', company: 'Activities R Us', contact: 'https://www.activitiesrus.biz/', photoUrl: ARUSImage },
   { serviceType: 'Hospice', keyword: 'Hospice', company: 'Aveanna Hospice', contact: 'https://www.aveanna.com/', photoUrl: AveannaHealthcareImage },
@@ -29,7 +29,7 @@ const resourcesData = [
   { serviceType: 'Veterans Aid', keyword: 'Veterans', company: 'Veterans Home Care', contact: 'https://veteranshomecare.com/vet-assist/zero-interest-loan/', photoUrl: VetImage },
   { serviceType: 'After Loss Services', keyword: 'After Loss Services', company: 'Sunny Care Services', contact: 'https://sunnycareservices.com/', photoUrl: SunnyImage },
   { serviceType: 'Medical Housecalls', keyword: 'Medical Housecalls', company: 'Medical House Calls Tennessee', contact: 'https://medicalhousecallstn.com/', photoUrl: CallsImage },
-  { serviceType: 'Senior/Medical “Taxi” Service', keyword: 'Concierge Transportation Services', company: 'Susie’s Senior Services', contact: 'susiemae1221@yahoo.com', photoUrl: susieImage },
+  { serviceType: 'Senior/Medical “Taxi” Service', keyword: 'Concierge Transportation Services', company: 'Susie’s Senior Services', contact: 'susiesseniorservicesoftn@gmail.com', photoUrl: susieImage },
   { serviceType: 'Real Estate', keyword: 'Real Estate', company: 'The Bedsole Group', contact: 'https://thebedsolegroup.com/', photoUrl: BedsoleImage },
   { serviceType: 'Medicare Specialist', keyword: 'Medicare Specialist', company: 'Acuity Health Advisors', contact: 'https://www.acuityhealthadvisors.com/health-insurance/', photoUrl: acunityImage },
   { serviceType: 'Financial Advising', keyword: 'Financial Advising', company: 'Mortgage South Reverse Mortgages', contact: 'https://www.mortgage-south.com/', photoUrl: MSImage },
