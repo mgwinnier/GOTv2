@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/GOTv2/static/css/main.d7259483.css",
-    "main.js": "/GOTv2/static/js/main.5adf52ba.js",
+    "main.css": "/GOTv2/static/css/main.43042f2b.css",
+    "main.js": "/GOTv2/static/js/main.e2a0b38b.js",
     "static/media/hero-background.jpg": "/GOTv2/static/media/hero-background.472cedeaf5225ecf1d27.jpg",
     "static/media/about.jpg": "/GOTv2/static/media/about.852c07b5857600f632a1.jpg",
     "static/media/nurse.jpg": "/GOTv2/static/media/nurse.d019d6462f1b2cae8b20.jpg",
@@ -22,6 +22,7 @@
     "static/media/meal-preparation.jpg": "/GOTv2/static/media/meal-preparation.1b77631d52bc71c76716.jpg",
     "static/media/ARUS.jpg": "/GOTv2/static/media/ARUS.6260e4eb9698480f0c4b.jpg",
     "static/media/legal.jpg": "/GOTv2/static/media/legal.57eda5f87a9693654ae1.jpg",
+    "static/media/va.jpg": "/GOTv2/static/media/va.7a99a3b3f6fb3db1d721.jpg",
     "static/media/tennalz.jpg": "/GOTv2/static/media/tennalz.f729a5be7e033037c059.jpg",
     "static/media/Counseling.jpg": "/GOTv2/static/media/Counseling.675ec844bdc61f5a9e1b.jpg",
     "static/media/Arosa.jpg": "/GOTv2/static/media/Arosa.8b92b060ccd0c48bafa4.jpg",
@@ -35,11 +36,11 @@
     "static/media/veterans.jpg": "/GOTv2/static/media/veterans.b9122404b018c4ee0bc1.jpg",
     "static/media/law.jpg": "/GOTv2/static/media/law.027f952caf4dacfa23c3.jpg",
     "index.html": "/GOTv2/index.html",
-    "main.d7259483.css.map": "/GOTv2/static/css/main.d7259483.css.map",
-    "main.5adf52ba.js.map": "/GOTv2/static/js/main.5adf52ba.js.map"
+    "main.43042f2b.css.map": "/GOTv2/static/css/main.43042f2b.css.map",
+    "main.e2a0b38b.js.map": "/GOTv2/static/js/main.e2a0b38b.js.map"
   },
   "entrypoints": [
-    "static/css/main.d7259483.css",
-    "static/js/main.5adf52ba.js"
+    "static/css/main.43042f2b.css",
+    "static/js/main.e2a0b38b.js"
   ]
 }
