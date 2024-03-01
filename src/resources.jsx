@@ -13,6 +13,7 @@ import CallsImage from './assets/resources/calls.jpg';
 import BedsoleImage from './assets/resources/bedsole.jpg'; 
 import acunityImage from './assets/resources/acunity.jpg'; 
 import MSImage from './assets/resources/MS.jpg'; 
+import caringImage from './assets/resources/caring.jpg'; 
 
 const resourcesData = [
   { serviceType: 'End of Life Doula', keyword: 'End of Life Doula', company: 'Susie’s Senior Services', contact: 'susiemae1221@yahoo.com', photoUrl: susieImage },
@@ -32,6 +33,7 @@ const resourcesData = [
   { serviceType: 'Real Estate', keyword: 'Real Estate', company: 'The Bedsole Group', contact: 'https://thebedsolegroup.com/', photoUrl: BedsoleImage },
   { serviceType: 'Medicare Specialist', keyword: 'Medicare Specialist', company: 'Acuity Health Advisors', contact: 'https://www.acuityhealthadvisors.com/health-insurance/', photoUrl: acunityImage },
   { serviceType: 'Financial Advising', keyword: 'Financial Advising', company: 'Mortgage South Reverse Mortgages', contact: 'https://www.mortgage-south.com/', photoUrl: MSImage },
+  { serviceType: 'Real Estate', keyword: 'Real Estate', company: 'Caring Transitions', contact: 'https://www.caringtransitionssouthernnashvilletn.com/', photoUrl: caringImage },
 ];
 
 const ResourceList = () => {

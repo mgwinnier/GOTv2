@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import veteransImage from '../assets/veterans.jpg'; // Ensure the path is correct
 
 function VeteransSection() {
@@ -21,10 +22,10 @@ function VeteransSection() {
               Our appreciation for what veterans have done for us and our country is immense. It's our honor to give back by ensuring they receive the care, respect, and dignity they deserve.
             </p>
             <div className="button-container mt-8">
-              <a href="/veterans-page" className="inline-block bg-blue-500 hover:bg-red-500 text-white font-bold py-2 px-4 rounded transition duration-300">
+            <Link to="/veterans" className="inline-block bg-blue-500 hover:bg-red-500 text-white font-bold py-2 px-4 rounded transition duration-300">
                 <span className="sm:hidden">Veteran? Click Here</span>
                 <span className="hidden sm:inline-block">Are You A Veteran Or Veteran's Spouse? Click Here</span>
-              </a>
+              </Link>
             </div>
           </div>
         </div>
