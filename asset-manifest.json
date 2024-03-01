@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/GOTv2/static/css/main.d7259483.css",
-    "main.js": "/GOTv2/static/js/main.8d2033c7.js",
+    "main.js": "/GOTv2/static/js/main.6bf7e312.js",
     "static/media/hero-background.jpg": "/GOTv2/static/media/hero-background.472cedeaf5225ecf1d27.jpg",
     "static/media/about.jpg": "/GOTv2/static/media/about.852c07b5857600f632a1.jpg",
     "static/media/nurse.jpg": "/GOTv2/static/media/nurse.d019d6462f1b2cae8b20.jpg",
@@ -36,10 +36,10 @@
     "static/media/law.jpg": "/GOTv2/static/media/law.027f952caf4dacfa23c3.jpg",
     "index.html": "/GOTv2/index.html",
     "main.d7259483.css.map": "/GOTv2/static/css/main.d7259483.css.map",
-    "main.8d2033c7.js.map": "/GOTv2/static/js/main.8d2033c7.js.map"
+    "main.6bf7e312.js.map": "/GOTv2/static/js/main.6bf7e312.js.map"
   },
   "entrypoints": [
     "static/css/main.d7259483.css",
-    "static/js/main.8d2033c7.js"
+    "static/js/main.6bf7e312.js"
   ]
 }
