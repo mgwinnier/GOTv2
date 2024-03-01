@@ -61,8 +61,6 @@ const otherServices = [
 ];
 
 function ServicesSection() {
-  const [showAdvising, setShowAdvising] = useState(false);
-  const [showOtherServices, setShowOtherServices] = useState(false);
   const [tooltipInfo, setTooltipInfo] = useState({ show: false, content: '', name: '', id: null });
   const [tooltipTimer, setTooltipTimer] = useState(null);
 
@@ -147,13 +145,6 @@ function ServicesSection() {
         {/* Advising Services Section */}
         <div>
           <h2 className="text-3xl font-bold uppercase text-gray-800 mb-4">Advising Services</h2>
-          <button 
-            className="bg-yellow-500 text-white font-bold py-2 px-4 rounded hover:bg-yellow-600 transition duration-300 mb-8"
-            onClick={() => setShowAdvising(!showAdvising)}
-          >
-            {showAdvising ? 'Collapse Services' : 'Expand Services'}
-          </button>
-          {showAdvising && (
             <div className="flex flex-wrap justify-center gap-6 mb-12">
               {advisingServices.map((service, index) => (
                 <div key={index} className="w-1/3 sm:w-1/4 md:w-1/5 px-4 mb-6">
@@ -164,19 +155,11 @@ function ServicesSection() {
                 </div>
               ))}
             </div>
-          )}
         </div>
 
         {/* Other Services Section */}
         <div>
           <h3 className="text-3xl font-bold uppercase text-gray-800 mb-4">Other Services</h3>
-          <button 
-            className="bg-yellow-500 text-white font-bold py-2 px-4 rounded hover:bg-yellow-600 transition duration-300 mb-8"
-            onClick={() => setShowOtherServices(!showOtherServices)}
-          >
-            {showOtherServices ? 'Collapse Services' : 'Expand Services'}
-          </button>
-          {showOtherServices && (
             <div className="flex flex-wrap justify-center gap-6">
               {otherServices.map((service, index) => (
                 <div key={index} className="w-1/3 sm:w-1/4 md:w-1/5 px-4 mb-6">
@@ -187,7 +170,6 @@ function ServicesSection() {
                 </div>
               ))}
             </div>
-          )}
         </div>
       </div>
 

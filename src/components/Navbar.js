@@ -44,7 +44,7 @@ function Navbar() {
                             <Link to="/resources" className="block py-2 pr-4 pl-3 text-white rounded md:bg-transparent md:p-0" onClick={() => setIsOpen(false)}>Resources</Link>
                         </li>
                         <li>
-                            <Link to="/about" className="block py-2 pr-4 pl-3 text-white rounded md:bg-transparent md:p-0" onClick={() => setIsOpen(false)}>Who We Are</Link>
+                            <Link to="/whoweare" className="block py-2 pr-4 pl-3 text-white rounded md:bg-transparent md:p-0" onClick={() => setIsOpen(false)}>Who We Are</Link>
                         </li>
                         <li>
                             <Link to="/veterans" className="block py-2 pr-4 pl-3 text-white rounded md:bg-transparent md:p-0" onClick={() => setIsOpen(false)}>Veterans</Link>
