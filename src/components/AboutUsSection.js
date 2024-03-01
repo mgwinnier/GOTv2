@@ -10,7 +10,7 @@ function AboutUsSection() {
           <div className="w-full lg:w-7/12 px-4 mb-4">
             <h2 className="text-3xl font-semibold">Our Mission</h2>
             <p className="mt-4 text-lg leading-relaxed text-gray-700">
-              At GRAMPS of Tennessee, our core commitment is health and happiness through knowledge, as it has been our experience that the single most common factor families face is simply fear from a lack of information. <span className="text-yellow-500 uppercase font-bold tracking-wider" style={{ textShadow: '1px 1px 2px black' }}>Knowledge is power</span>, therefore, it is our mission to educate and inform our local community about all things related to aging!
+            At GRAMPS of Tennessee, our core commitment is ensuring silver linings of golden years as we walk beside and advise families on their unique journeys. The single common factor? Uncertainty from a lack of information.  <span className="text-yellow-500 uppercase font-bold tracking-wider" style={{ textShadow: '1px 1px 2px black' }}>Knowledge is power</span>, therefore, it is our mission to educate and inform our local community about all things related to aging!
             </p>
             <h2 className="text-3xl font-semibold mt-8">Our Team</h2>
             <p className="mt-4 text-lg leading-relaxed text-gray-700">
