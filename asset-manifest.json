@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/GOTv2/static/css/main.d4b5857d.css",
-    "main.js": "/GOTv2/static/js/main.0ba2805f.js",
+    "main.css": "/GOTv2/static/css/main.a70273c2.css",
+    "main.js": "/GOTv2/static/js/main.21bb9f20.js",
     "static/media/hero-background.jpg": "/GOTv2/static/media/hero-background.472cedeaf5225ecf1d27.jpg",
     "static/media/about.jpg": "/GOTv2/static/media/about.852c07b5857600f632a1.jpg",
     "static/media/nurse.jpg": "/GOTv2/static/media/nurse.d019d6462f1b2cae8b20.jpg",
@@ -11,12 +11,14 @@
     "static/media/independent-living.jpg": "/GOTv2/static/media/independent-living.624b33250a44aa1eb8c7.jpg",
     "static/media/driving.jpg": "/GOTv2/static/media/driving.a2abb9f24b58fa20eb5f.jpg",
     "static/media/discovery.jpg": "/GOTv2/static/media/discovery.2b334e8639905512cdaf.jpg",
+    "static/media/pet.jpg": "/GOTv2/static/media/pet.6cf9e8c572770c19db18.jpg",
     "static/media/homeact.jpg": "/GOTv2/static/media/homeact.918ee81f606dc7baef59.jpg",
     "static/media/homehealth.jpg": "/GOTv2/static/media/homehealth.cc64ddcad59b0b701c94.jpg",
     "static/media/real-estate.jpg": "/GOTv2/static/media/real-estate.502047e31115dcc35b4f.jpg",
     "static/media/susie.jpg": "/GOTv2/static/media/susie.6647d82b5700a79f8b89.jpg",
     "static/media/placement.jpg": "/GOTv2/static/media/placement.8a3ffd4f879b8d39c69f.jpg",
     "static/media/memory-care.jpg": "/GOTv2/static/media/memory-care.e5d17532d48e65e411c1.jpg",
+    "static/media/snowbird.jpg": "/GOTv2/static/media/snowbird.3686d9640166e3d36e88.jpg",
     "static/media/logo.png": "/GOTv2/static/media/logo.6e3c5fd831b359783afc.png",
     "static/media/meal-preparation.jpg": "/GOTv2/static/media/meal-preparation.1b77631d52bc71c76716.jpg",
     "static/media/ARUS.jpg": "/GOTv2/static/media/ARUS.6260e4eb9698480f0c4b.jpg",
@@ -32,11 +34,11 @@
     "static/media/veterans.jpg": "/GOTv2/static/media/veterans.b9122404b018c4ee0bc1.jpg",
     "static/media/law.jpg": "/GOTv2/static/media/law.027f952caf4dacfa23c3.jpg",
     "index.html": "/GOTv2/index.html",
-    "main.d4b5857d.css.map": "/GOTv2/static/css/main.d4b5857d.css.map",
-    "main.0ba2805f.js.map": "/GOTv2/static/js/main.0ba2805f.js.map"
+    "main.a70273c2.css.map": "/GOTv2/static/css/main.a70273c2.css.map",
+    "main.21bb9f20.js.map": "/GOTv2/static/js/main.21bb9f20.js.map"
   },
   "entrypoints": [
-    "static/css/main.d4b5857d.css",
-    "static/js/main.0ba2805f.js"
+    "static/css/main.a70273c2.css",
+    "static/js/main.21bb9f20.js"
   ]
 }
