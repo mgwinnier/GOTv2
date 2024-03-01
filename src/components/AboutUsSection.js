@@ -1,4 +1,5 @@
-import React from 'react';
+import {React} from 'react';
+import { Link } from 'react-router-dom';
 import aboutImage from '../assets/about.jpg'; // Ensure you have an appropriate image at this path
 
 function AboutUsSection() {
@@ -28,9 +29,9 @@ function AboutUsSection() {
 
         {/* Centered Button at the Bottom */}
         <div className="text-center mt-8">
-          <a href="/who-are-we" className="inline-block px-8 py-4 text-white font-bold bg-black rounded hover:bg-yellow-500 transition-colors">
+        <Link to="/whoweare" className="inline-block px-8 py-4 text-white font-bold bg-black rounded hover:bg-yellow-500 transition-colors">
             Learn More About Us
-          </a>
+          </Link>
         </div>
       </div>
     </section>
