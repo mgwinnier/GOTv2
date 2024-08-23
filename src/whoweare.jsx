@@ -15,9 +15,11 @@ const WhoWeAre = () => {
             <h2 className="text-2xl font-semibold text-yellow-500">Susie Eskew</h2>
             <p className="text-sm text-gray-600">Owner & Senior Specialist</p>
             <p className="text-gray-700 text-base">
-            Susie Eskew is a Murfreesboro native with a passion for seniors & her community! Her GRAMPS team has over 4 decades of service in the senior sector & consists of specialists in various areas pertaining to our golden years.
-              Our goal is to walk beside and relieve the family of any stressors that may arise with changing needs and empower them with knowledge.
-              We strive to provide assistance to seniors & their families by taking them step by step through the entire journey of the aging process.
+            Susie Eskew is a Tennessee native, having grown up and graduated college in Martin, Tn, the daughter of college mathematics educators.
+
+She has loved and served the 55+ population her entire life!  She is passionate about advocating for, educating, empowering, and ensuring good health and happiness of all ages, but specifically seniors, as so many are alone.  Having taught them to swim in her teens, bringing Silver Sneakers to much of Tennessee in young adulthood, to serving as a senior consultant/health coach/dementia practitioner in recent years, she has made it her life’s mission to ensure the wellbeing of the aging population.
+
+Susie has 4 amazing children who are her entire heart and keep her inspired outside of her professional endeavors.
             </p>
           </div>
         </div>
