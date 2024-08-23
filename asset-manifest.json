@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.80ea8a54.css",
-    "main.js": "/static/js/main.bd6de557.js",
+    "main.js": "/static/js/main.36dcfb42.js",
     "static/media/hero-background.jpg": "/static/media/hero-background.472cedeaf5225ecf1d27.jpg",
     "static/media/about.jpg": "/static/media/about.852c07b5857600f632a1.jpg",
     "static/media/nurse.jpg": "/static/media/nurse.d019d6462f1b2cae8b20.jpg",
@@ -15,6 +15,7 @@
     "static/media/homeact.jpg": "/static/media/homeact.918ee81f606dc7baef59.jpg",
     "static/media/homehealth.jpg": "/static/media/homehealth.cc64ddcad59b0b701c94.jpg",
     "static/media/real-estate.jpg": "/static/media/real-estate.502047e31115dcc35b4f.jpg",
+    "static/media/susie.jpg": "/static/media/susie.f3bb571393f561ffa4f6.jpg",
     "static/media/placement.jpg": "/static/media/placement.8a3ffd4f879b8d39c69f.jpg",
     "static/media/memory-care.jpg": "/static/media/memory-care.e5d17532d48e65e411c1.jpg",
     "static/media/snowbird.jpg": "/static/media/snowbird.3686d9640166e3d36e88.jpg",
@@ -29,17 +30,16 @@
     "static/media/money.jpg": "/static/media/money.e4d7870db7b9a4d7a79f.jpg",
     "static/media/GameofThrones.ttf": "/static/media/GameofThrones.71fa190a8a1a34123fa1.ttf",
     "static/media/AveannaHealthcare.png": "/static/media/AveannaHealthcare.deee441a78ff1302eaa8.png",
-    "static/media/susie.jpg": "/static/media/susie.f3bb571393f561ffa4f6.jpg",
     "static/media/bedsole.jpg": "/static/media/bedsole.bd1a0e7f19059edef6ac.jpg",
     "static/media/calls.jpg": "/static/media/calls.5df872cb757a957972bb.jpg",
     "static/media/veterans.jpg": "/static/media/veterans.b9122404b018c4ee0bc1.jpg",
     "static/media/law.jpg": "/static/media/law.027f952caf4dacfa23c3.jpg",
     "index.html": "/index.html",
     "main.80ea8a54.css.map": "/static/css/main.80ea8a54.css.map",
-    "main.bd6de557.js.map": "/static/js/main.bd6de557.js.map"
+    "main.36dcfb42.js.map": "/static/js/main.36dcfb42.js.map"
   },
   "entrypoints": [
     "static/css/main.80ea8a54.css",
-    "static/js/main.bd6de557.js"
+    "static/js/main.36dcfb42.js"
   ]
 }
