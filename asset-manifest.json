@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.80ea8a54.css",
-    "main.js": "/static/js/main.7a70a3cd.js",
+    "main.js": "/static/js/main.bd6de557.js",
     "static/media/hero-background.jpg": "/static/media/hero-background.472cedeaf5225ecf1d27.jpg",
     "static/media/about.jpg": "/static/media/about.852c07b5857600f632a1.jpg",
     "static/media/nurse.jpg": "/static/media/nurse.d019d6462f1b2cae8b20.jpg",
@@ -27,7 +27,6 @@
     "static/media/Counseling.jpg": "/static/media/Counseling.675ec844bdc61f5a9e1b.jpg",
     "static/media/Arosa.jpg": "/static/media/Arosa.8b92b060ccd0c48bafa4.jpg",
     "static/media/money.jpg": "/static/media/money.e4d7870db7b9a4d7a79f.jpg",
-    "static/media/anna.jpg": "/static/media/anna.0eb44f5bae33af866fbc.jpg",
     "static/media/GameofThrones.ttf": "/static/media/GameofThrones.71fa190a8a1a34123fa1.ttf",
     "static/media/AveannaHealthcare.png": "/static/media/AveannaHealthcare.deee441a78ff1302eaa8.png",
     "static/media/susie.jpg": "/static/media/susie.f3bb571393f561ffa4f6.jpg",
@@ -37,10 +36,10 @@
     "static/media/law.jpg": "/static/media/law.027f952caf4dacfa23c3.jpg",
     "index.html": "/index.html",
     "main.80ea8a54.css.map": "/static/css/main.80ea8a54.css.map",
-    "main.7a70a3cd.js.map": "/static/js/main.7a70a3cd.js.map"
+    "main.bd6de557.js.map": "/static/js/main.bd6de557.js.map"
   },
   "entrypoints": [
     "static/css/main.80ea8a54.css",
-    "static/js/main.7a70a3cd.js"
+    "static/js/main.bd6de557.js"
   ]
 }
